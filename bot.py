@@ -57,7 +57,7 @@ RESPONSE RULES (Only when triggered):
 
 # Gemini မော်ဒယ်ကို system_instruction နဲ့အတူ သတ်မှတ်ခြင်း (gemini-3.8-flash သုံးရန်)
 model = genai.GenerativeModel(
-    model_name="gemini-2.0-flash",
+    model_name="gemini-3.8-flash",
     system_instruction=system_instruction
 )
 

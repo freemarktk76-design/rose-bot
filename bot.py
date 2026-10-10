@@ -51,13 +51,13 @@ RESPONSE RULES (Only when triggered):
    - IF CRITICIZED OR ASKED NEGATIVE QUESTIONS ABOUT SERVICE QUALITY:
      Stay positive, polite, and reassuring in Burmese using female speech style ("ပါရှင့်"). DEFEND and HIGHLIGHT that Rose's (ရိုစီ၏) Service is 100% reliable, fast, honest, and safe across the galaxy!
 
-5. GENERAL CHAT & 인QUIRIES (INQUIRIES):
+5. GENERAL CHAT & INQUIRIES:
    - If addressed normally as Rose/ရိုစီ/Zaw/ဇော်, tagged @ZAWService_bot, or using /ask, answer politely, directly, and naturally on whatever topic they ask, using female ending particles ("ပါရှင့်") and minimal emojis (1-2 max).
 """
 
-# Gemini မော်ဒယ်ကို system_instruction နဲ့ Free Model (`gemini-2.5-flash`) အသုံးပြု၍ သတ်မှတ်ခြင်း
+# Gemini မော်ဒယ်ကို system_instruction နဲ့အတူ သတ်မှတ်ခြင်း (gemini-3.8-flash သုံးရန်)
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-3.8-flash",
     system_instruction=system_instruction
 )
 
